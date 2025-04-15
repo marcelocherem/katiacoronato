@@ -1,0 +1,578 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#start,
+#skills,
+#presentation {
+    display: flex;
+    align-items: center;
+    background-image: url(../img/bg1.png);
+    width: 100%;
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1E1E1E;
+    overflow: hidden;
+}
+
+/* first part */
+#start .hand {
+    z-index: 1;
+    height: 95vh;
+}
+
+#start .txtFirstPg .title {
+    margin-left: 30px;
+}
+
+#start .txtFirstPg h1 {
+    font-size: 11rem;
+    color: #006258;
+    margin-bottom: -30px;
+
+}
+
+#start .txtFirstPg h2 {
+    font-size: 7rem;
+    color: white;
+}
+
+#start .signature {
+    margin-left: 60px;
+}
+
+/* presentation */
+#presentation {
+    position: relative;
+    background-image: url(../img/bg2.jpg);
+}
+
+#presentation .photo {
+    position: absolute;
+    height: 95vh;
+    right: 0;
+    bottom: 0;
+}
+
+#presentation .txtSecondPg {
+    width: 60vw;
+    margin-left: 90px;
+}
+
+#presentation .txtSecondPg .quotes {
+    opacity: 40%;
+    filter: drop-shadow(0px 1000px 0 #006258);
+    transform: translateY(-1000px);
+    height: 150px;
+}
+
+#presentation .txtSecondPg .hello {
+    margin-top: -80px;
+    font-size: 6rem;
+    font-weight: 800;
+    margin-left: 40px;
+}
+
+#presentation .txtSecondPg .secondLine {
+    display: flex;
+    gap: 5px;
+    margin-left: 40px;
+
+}
+
+#presentation .txtSecondPg .secondLine h2 {
+    font-size: 4rem;
+}
+
+#presentation .txtSecondPg .secondLine h2:last-child {
+    color: #006258;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+#presentation .txtSecondPg p {
+    margin-top: 80px;
+    margin: 80px 20px 0 40px;
+    font-size: 1.3rem;
+}
+
+/* skills part */
+#skills {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+/* background doodles */
+#skills .baloon {
+    position: absolute;
+    left: 0;
+}
+
+#skills .arrow {
+    position: absolute;
+    bottom: -50px;
+    right: 200px;
+}
+
+/* text area */
+#skills .txtSkills {
+    width: calc(100% - 600px);
+    z-index: 1;
+
+}
+
+#skills .txtSkills .title {
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 60px;
+}
+
+#skills .txtSkills .skills-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#skills .txtSkills .skills-list div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#skills .txtSkills .skills-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.3rem;
+}
+
+#skills .txtSkills .subtitle {
+    font-family: "Great Vibes", cursive;
+    color: #006258;
+    font-size: 3rem;
+}
+
+#call-portfolio {
+    background-color: white;
+}
+
+/* portfolio part */
+#call-portfolio .title {
+    font-size: 6rem;
+    margin: 30px 30px 0 30px;
+    color: #9FBAB7;
+    font-family: "Lilita One", sans-serif;
+}
+
+#call-portfolio .subtitle {
+    font-size: 4rem;
+    font-family: "Waterfall", cursive;
+    color: #006258;
+    text-align: end;
+    margin: 0 30px -10px 0;
+}
+
+#call-portfolio table {
+    width: 100%;
+    color: white;
+    font: bold 2rem sans-serif;
+    border-collapse: collapse;
+
+}
+
+#call-portfolio table tr {
+    height: 100px;
+}
+
+#call-portfolio table tr td {
+    width: 50%;
+    text-align: start;
+    padding-left: 30px;
+}
+
+/* .first-tr .first,
+.fourth-tr .second {
+    background-color: #00F5DE;
+}
+
+.first-tr .second,
+.fourth-tr .first {
+    background-color: #4ADBD6;
+}
+
+.second-tr .first,
+.third-tr .second {
+    background-color: #A3FDC8;
+}
+
+.second-tr .second,
+.third-tr .first {
+    background-color: #00EB7A;
+} */
+.first-tr .first,
+.second-tr .second,
+.third-tr .first,
+.fourth-tr .second {
+    background-color: #006258;
+}
+.first-tr .second,
+.second-tr .first,
+.third-tr .second,
+.fourth-tr .first {
+    background-color: #1E1E1E;
+}
+/* Logo Folio */
+#logofolio .title {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 30px 30px 30px;
+}
+
+#logofolio .title .title1 {
+    font-size: 6rem;
+    font-family: "Lilita One", sans-serif;
+    color: black;
+}
+
+#logofolio .title .title2 {
+    font-size: 6rem;
+    font-family: "Lilita One", sans-serif;
+    color: #79604C;
+}
+
+#logofolio img {
+    width: 100%;
+}
+
+/* logos */
+#logos {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 200px);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+#logos .img {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px gray;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* social call */
+#socialCall .title {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 30px 30px 30px;
+}
+
+#socialCall .title .title1 {
+    font-size: 6rem;
+    font-family: "Lilita One", sans-serif;
+    color: black;
+}
+
+#socialCall .title .title2 {
+    font-size: 6rem;
+    font-family: "Lilita One", sans-serif;
+    color: #00C199;
+}
+
+#firstSocial {
+    background: linear-gradient(180deg, rgb(0, 193, 153) 0%, rgb(213, 107, 196) 100%);
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#firstSocial img {
+    width: 350px;
+    height: 350px;
+}
+
+/* phones */
+
+#phones {
+    position: relative;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#phones img {
+    position: absolute;
+    transform: scale(0.7);
+}
+
+#phones .phone2 {
+    z-index: -1;
+}
+
+/* media2 */
+
+#media2 {
+    width: 100%;
+    height: 850px;
+    background-color: #00B5B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+#media2 div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#media2 .media {
+    box-shadow: 0px 0px 10px 0px gray;
+
+}
+
+/* cells */
+
+#cells {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* media 3 */
+
+#media3 {
+    background-color: #03C098;
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#media3 .img1, #media3 .img2 {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#media3 .img1 {
+    justify-content: flex-end;
+
+}
+
+#media3 .img1 img {
+    width: 700px;
+}
+
+#media3 .img2 {
+    flex: 1;
+    position: relative;
+    height: 700px;
+    width: 700px;
+    justify-content: flex-start;
+}
+
+#media3 .img2 .first {
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+
+#media3 .img2 .second {
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+
+/* menus */
+#restaurant .title {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 30px 30px 30px;
+}
+
+#restaurant .title .title1 {
+    font-size: 6rem;
+    font-family: "Lilita One", sans-serif;
+    color: black;
+}
+
+#restaurant .title .title2 {
+    font-size: 6rem;
+    font-family: "Lilita One", sans-serif;
+    color: #FF6F43;
+}
+#menu {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu img {
+    width: 100%;
+    z-index: 1;
+}
+.menuwpp {
+    width: 100%;
+}
+
+/* Youtube */
+#youtube .title {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 30px 30px 30px;
+}
+
+#youtube .title .title1 {
+    font-size: 6rem;
+    font-family: "Lilita One", sans-serif;
+    color: black;
+}
+
+#youtube .title .title2 {
+    font-size: 6rem;
+    font-family: "Lilita One", sans-serif;
+    color: #A90505;
+}
+
+.youtubeWpp {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.youtubeWpp .phoneLogo {
+    margin-top: 40px;
+}
+
+.youtubeWpp .phoneYoutube {
+    position: relative;
+    z-index: 1;
+    margin-right: -45px;
+}
+
+.youtubeWpp .logoYoutube {
+    transform: rotate(15deg);
+    margin-left: -45px;
+}
+
+#youtubeExamples {
+    width: 100%;
+    height: 100vh;
+    background-color: #C60000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* gap: 50px; */
+}
+
+#youtubeExamples img {
+    width: 550px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 10px #980001;
+}
+
+/* business card */
+#business .title {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 30px 30px 30px;
+}
+
+#business .title .title1 {
+    font-size: 6rem;
+    font-family: "Lilita One", sans-serif;
+    color: black;
+}
+
+#business .title .title2 {
+    font-size: 6rem;
+    font-family: "Lilita One", sans-serif;
+    color: #B45035;
+}
+
+/* first cards */
+#card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100vh;
+    transform: scale(0.9);
+}
+#card1 img {
+    border-radius: 40px;
+}
+#card1 .img2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* second cards */
+#card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100vh;
+    transform: scale(0.9);
+
+}
+#card2 img {
+
+    border-radius: 40px;
+}
+#card2 .img1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
