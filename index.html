@@ -55,7 +55,7 @@
 
     <!-- skills part -->
     <section id="skills">
-        <img src="assets/img/baloon.png" alt="" class="baloon">
+        <img src="assets/img/balloon.png" alt="" class="balloon">
         <div class="txtSkills">
             <h1 class="title">Skills & Passion</h1>
             <div class="skills-list">
@@ -287,7 +287,6 @@
     <section id="thin">
         <img src="assets/img/EFFECTS1.jpg" alt="">
     </section>
-
     <!-- Web design title -->
     <div id="webTitle">
         <div class="title">
@@ -307,12 +306,35 @@
     <section id="phone">
         <img src="assets/img/web responsible.jpg" alt="">
     </section>
-
     <!-- contact us -->
     <section id="contact">
-        div.
+        <div class="contact">
+            <h1 class="title"> Let's Work Together</h1>
+            <form class="containerForm">
+                <input type="text" id="name" name="name" placeholder="Nome" required>
+                <input type="text" id="email" name="email" placeholder="E-mail" required>
+                <textarea id="message" name="message" placeholder="Digita qui il tuo messagio..." required></textarea>
+                <div class="buttonGroup">
+                    <button type="button" onclick="sendWhatsApp()">
+                        <img src="assets/img/whatsapp.svg" alt="" class="icon">
+                        <p class="whatsappText">
+                            Invia su WhatsApp
+                        </p>
+                    </button>
+                    <button type="button" onclick="sendEmail()">
+                        <img src="assets/img/mail.png" alt="" class="icon">
+                        <p class="mailText">
+                            Invia una mail
+                        </p>
+                    </button>
+                </div>
+            </form>
+        </div>
     </section>
-
+    <footer>
+        
+    </footer>
+    <button id="actionBtn" url></button>
     <script src="assets/js/script.js"></script>
 </body>
 
