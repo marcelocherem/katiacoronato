@@ -1816,10 +1816,14 @@
 
 /* first cards */
 @media (max-width:1040px) {
-    #card1, #card2 {
+
+    #card1,
+    #card2 {
         height: auto;
     }
-    #card1 img, #card2 img {
+
+    #card1 img,
+    #card2 img {
         width: 80%;
         margin: 40px 0;
     }
@@ -1827,6 +1831,7 @@
 
 /* stationary title */
 @media (max-width:1022px) {
+
     #stationary .title .title1,
     #stationary .title .title2 {
         font-size: 4rem;
@@ -1834,46 +1839,55 @@
 }
 
 @media (max-width:715px) {
+
     #stationary .title .title1,
     #stationary .title .title2 {
         font-size: 3rem;
     }
+
     #stationary .title {
         gap: 10px;
     }
 }
 
 @media (max-width:555px) {
+
     #stationary .title .title1,
     #stationary .title .title2 {
         font-size: 2.5rem;
     }
+
     #stationary .title {
         gap: 8px;
     }
 }
 
 @media (max-width: 459px) {
+
     #stationary .title .title1,
     #stationary .title .title2 {
         font-size: 2rem;
     }
+
     #stationary .title {
         gap: 6px;
     }
 }
 
 @media (max-width:380px) {
+
     #stationary .title .title1,
     #stationary .title .title2 {
         font-size: 1.5rem;
     }
+
     #stationary .title {
         gap: 5px;
     }
 }
 
 @media (max-width: 310px) {
+
     #stationary .title .title1,
     #stationary .title .title2 {
         font-size: 1.4rem;
@@ -1881,6 +1895,7 @@
 }
 
 @media (max-width: 285px) {
+
     #stationary .title .title1,
     #stationary .title .title2 {
         font-size: 1.3rem;
@@ -1888,6 +1903,7 @@
 }
 
 @media (max-width: 269px) {
+
     #stationary .title .title1,
     #stationary .title .title2 {
         font-size: 1.2rem;
@@ -1896,10 +1912,11 @@
 
 /* stationary cards */
 @media (max-width:1040px) {
-    #StationaryCards{
+    #StationaryCards {
         height: auto;
     }
-    #StationaryCards img{
+
+    #StationaryCards img {
         width: 80%;
         margin: 40px 0;
     }
@@ -1907,6 +1924,7 @@
 
 /* stationary title */
 @media (max-width:1022px) {
+
     #flyers .title .title1,
     #flyers .title .title2 {
         font-size: 4rem;
@@ -1914,46 +1932,55 @@
 }
 
 @media (max-width:715px) {
+
     #flyers .title .title1,
     #flyers .title .title2 {
         font-size: 3rem;
     }
+
     #flyers .title {
         gap: 10px;
     }
 }
 
 @media (max-width:555px) {
+
     #flyers .title .title1,
     #flyers .title .title2 {
         font-size: 2.5rem;
     }
+
     #flyers .title {
         gap: 8px;
     }
 }
 
 @media (max-width: 459px) {
+
     #flyers .title .title1,
     #flyers .title .title2 {
         font-size: 2rem;
     }
+
     #flyers .title {
         gap: 6px;
     }
 }
 
 @media (max-width:380px) {
+
     #flyers .title .title1,
     #flyers .title .title2 {
         font-size: 1.5rem;
     }
+
     #flyers .title {
         gap: 5px;
     }
 }
 
 @media (max-width: 310px) {
+
     #flyers .title .title1,
     #flyers .title .title2 {
         font-size: 1.4rem;
@@ -1961,6 +1988,7 @@
 }
 
 @media (max-width: 285px) {
+
     #flyers .title .title1,
     #flyers .title .title2 {
         font-size: 1.3rem;
@@ -1968,6 +1996,7 @@
 }
 
 @media (max-width: 269px) {
+
     #flyers .title .title1,
     #flyers .title .title2 {
         font-size: 1.2rem;
@@ -1979,36 +2008,44 @@
     .book {
         height: 700px;
     }
+
     .book .bookImg {
         height: 88%;
     }
+
     .book .circle {
         width: 1000px;
         height: 1000px;
     }
 }
+
 @media (max-width:1020px) {
     .book {
         height: 600px;
     }
+
     .book .circle {
         width: 800px;
         height: 800px;
     }
 }
+
 @media (max-width:820px) {
     .book {
         height: 400px;
     }
+
     .book .bookImg {
         height: 100%;
     }
+
     .book .circle {
         width: 600px;
         height: 600px;
         top: 0;
     }
 }
+
 @media (max-width:630px) {
     .book .circle {
         width: 500px;
@@ -2016,43 +2053,53 @@
         top: 0;
     }
 }
+
 @media (max-width:525px) {
     .book {
         height: 300px;
     }
+
     .book .bookImg {
         height: 90%;
     }
+
     .book .circle {
         width: 400px;
         height: 400px;
     }
 }
+
 @media (max-width:420px) {
     .book {
         height: 200px;
     }
+
     .book .bookImg {
         height: 100%;
     }
+
     .book .circle {
         width: 300px;
         height: 300px;
     }
 }
+
 @media (max-width:320px) {
     .book {
         height: 150px;
     }
+
     .book .circle {
         width: 200px;
         height: 200px;
     }
 }
+
 @media (max-width: 220px) {
     .book {
         height: 130px;
     }
+
     .book .circle {
         width: 180px;
         height: 180px;
@@ -2062,6 +2109,7 @@
 
 /* Web Design title */
 @media (max-width:1022px) {
+
     #webTitle .title .title1,
     #webTitle .title .title2 {
         font-size: 4rem;
@@ -2069,46 +2117,55 @@
 }
 
 @media (max-width:715px) {
+
     #webTitle .title .title1,
     #webTitle .title .title2 {
         font-size: 3rem;
     }
+
     #webTitle .title {
         gap: 10px;
     }
 }
 
 @media (max-width:555px) {
+
     #webTitle .title .title1,
     #webTitle .title .title2 {
         font-size: 2.5rem;
     }
+
     #webTitle .title {
         gap: 8px;
     }
 }
 
 @media (max-width: 459px) {
+
     #webTitle .title .title1,
     #webTitle .title .title2 {
         font-size: 2rem;
     }
+
     #webTitle .title {
         gap: 6px;
     }
 }
 
 @media (max-width:380px) {
+
     #webTitle .title .title1,
     #webTitle .title .title2 {
         font-size: 1.5rem;
     }
+
     #webTitle .title {
         gap: 5px;
     }
 }
 
 @media (max-width: 310px) {
+
     #webTitle .title .title1,
     #webTitle .title .title2 {
         font-size: 1.4rem;
@@ -2116,6 +2173,7 @@
 }
 
 @media (max-width: 285px) {
+
     #webTitle .title .title1,
     #webTitle .title .title2 {
         font-size: 1.3rem;
@@ -2123,8 +2181,121 @@
 }
 
 @media (max-width: 269px) {
+
     #webTitle .title .title1,
     #webTitle .title .title2 {
         font-size: 1.2rem;
+    }
+}
+
+/* contact */
+@media (max-width: 1487px) {
+    #contact {
+        background-size: auto 100%;
+    }
+
+    #contact .contact {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1265px) {
+    #contact .contact {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1120px) {
+    #contact {
+        justify-content: center;
+    }
+    #contact .contact h1 {
+        font-size: 4rem;
+    }
+    #contact .contact .containerForm {
+        gap: 20px;
+    }
+    #contact .contact .containerForm input, #contact .contact .containerForm textarea {
+        width: 515px;
+    }
+}
+
+@media (max-width: 820px) {
+    #contact {
+        background-position: right bottom;
+    }
+    #contact .contact h1 {
+        font-size: 3rem;
+    }
+    #contact .contact .containerForm input, #contact .contact .containerForm textarea {
+        width: 440px;
+    }
+}
+
+@media (max-width: 730px) {
+    #contact .contact h1 {
+        font-size: 3rem;
+    }
+    #contact .contact .containerForm input, #contact .contact .containerForm textarea {
+        width: 310px;
+    }
+}
+
+@media (max-width: 600px) {
+    #contact .contact h1 {
+        font-size: 2.5rem;
+    }
+    #contact .contact .containerForm {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 490px) {
+    #contact .contact h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 490px) {
+    #contact .contact .containerForm {
+        background-color: transparent;
+        padding: 0;
+    }
+}
+
+/* side buttons */
+@media (max-width: 470px) {
+        #contact .contact {
+            width: 100%;
+        }
+   .sideButtons .sideButton {
+    height: 40px;
+    width: 40px;
+   }
+   .sideButtons .sideButton img {
+    width: 30px;
+    margin-right: 5px;
+   }
+   #contact .contact .containerForm input, #contact .contact .containerForm textarea {
+        width: 80vw;
+    }
+    #contact .contact .containerForm .buttonGroup button {
+        width: 40px;
+    }
+}
+@media (max-width: 300px) {
+    #contact .contact h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* footer */
+
+@media (max-width: 470px) {
+    footer {
+        height: 200px;
+    }
+    footer img {
+        width: 70%;
     }
 }

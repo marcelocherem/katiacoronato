@@ -645,6 +645,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #StationaryCards img {
@@ -792,6 +793,7 @@ body {
 #contact .contact h1 {
     font-family: "Lilita One", sans-serif;
     font-size: 5rem;
+    margin-bottom: 20px;
 }
 
 #contact .contact .containerForm {
@@ -865,7 +867,11 @@ body {
     margin-right: 10px;
 }
 
-.sideButtons .sideButton p {
+.sideButtons .sideButton a {
+ text-decoration: none;   
+}
+
+.sideButtons .sideButton p, .sideButtons .sideButton a {
     white-space: nowrap;
     color: white;
     margin: 0 20px;
@@ -874,16 +880,35 @@ body {
     transition: 0.5s ease;
     transition-delay: 0.3s;
 }
+
+.sideButtons .sideButton a:hover {
+    font-size: 1.3rem;
+}
+
 .sideButtons #actionBtn:hover {
     width: 188px;
 }
-.sideButtons #actionBtn:hover p {
+.sideButtons #actionBtn:hover p, .sideButtons .sideButton a {
     opacity: 1;
 }
 
 .sideButtons #curriculum:hover {
-    width: 235px;
+    width: 345px;
 }
-.sideButtons #curriculum:hover p {
+.sideButtons #curriculum:hover p, .sideButtons .sideButton a {
     opacity: 1;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img {
+    width: 300px;
+    height: auto;
 }
